@@ -1,0 +1,89 @@
+.user-profile-container {
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 15px;
+  background: #ffffff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  border: 2px solid #ff5c8d;
+  text-align: center;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 15px;
+  background: var(--color-bg-white);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--color-text-dark);
+  border: 2px solid var(--color-primary);
+  text-align: center;
+}
+
+.user-profile-container h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: var(--color-primary);
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* New profile image styles */
+.profile-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.profile-image-large {
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #ff5c8d;
+  background-color: #fdf1f4;
+  padding: 5px;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(255, 92, 141, 0.2);
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid var(--color-primary);
+  background-color: var(--color-bg-white);
+  padding: 5px;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(255, 107, 0, 0.2);
+}
+
+.username-display {
+  color: #d80b26;
+  font-size: 22px;
+  margin-top: 10px;
+  color: var(--color-primary);
+  font-size: 22px;
+}
+
+/* User details section */
+.user-details {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.user-details div {
+  margin-bottom: 15px;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 8px;
+}
+
+.user-details strong {
+  width: 150px;
+  color: var(--color-primary);
+  width: 150px;
+}
+
+.user-details div:hover {
+  background-color: #fff3f7;
+  transition: background-color 0.2s ease-in-out;
+}
