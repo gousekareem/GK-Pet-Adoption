@@ -1,3 +1,5 @@
+version: "3.8"
+
 services:
   mysqldb:
     image: mysql:8
@@ -13,7 +15,7 @@ services:
       - springboot-mysql-net
 
   backend:
-    image: gousekareem/pet-fullstack-backend:latest
+    image: gousekareem42/pet-fullstack-backend:latest
     container_name: springboot
     ports:
       - "7008:7007"
@@ -28,7 +30,7 @@ services:
       - uploads_visitors:/app/uploads_visitors
 
   frontend:
-    image: gousekareem/pet-fullstack-frontend:latest
+    image: gousekareem42/pet-fullstack-frontend:latest
     container_name: react
     ports:
       - "7009:80"
@@ -46,3 +48,4 @@ volumes:
 
 networks:
   springboot-mysql-net:
+    name: Docker Fullstack CI
